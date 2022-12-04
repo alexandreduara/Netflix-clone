@@ -8,9 +8,10 @@ Este é um projeto no qual me desafiei a criar um clone da netflix usando os meu
 - ### Separar e fazer o Download das imagens escolhidas. :white_check_mark:
 - ### Separar os ícones necessários. :white_check_mark:
 - ### Escolher as fontes para o projeto. :white_check_mark:
-- ### criar a nav bar padrão sem funções.
-- ### Criar o card principal.
-- ### Começar a criação dos carrosséis:
+- ### criar a nav bar padrão sem funções. :white_check_mark:
+- ### Criar o card principal. :white_check_mark:
+- ### Começar a criação dos carrosséis: :white_check_mark:
+> - ### Recentemente adicionados. :white_check_mark:
 > - ### Populares na Netflix.
 > - ### Em alta.
 > - ### Continuar assistindo como.
