@@ -1,7 +1,220 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Fira+Sans:wght@500&family=Noto+Sans+Chakma&display=swap');
 
+:root{
+    --white: #ffffff;
+    --red: #E50914;
+    --grey: #59575488;
+    --orange: #E7792B;
+    --black: #0E0C0D;
+    --black-header: linear-gradient(to bottom, hsl(0, 0%, 4%), hsla(0, 0%, 4%, 0.007));
+
+    --graramond: 'EB Garamond', serif;
+    --fira: 'Fira Sans', sans-serif;
+    --noto: 'Noto Sans Chakma', sans-serif;
+}
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    font-family: 'EB Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-family: 'Noto Sans Chakma', sans-serif;
+    background-color: var(--black)
+}
+/* Header of the page*/
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: var(--black-header);
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 40px  ;
+    z-index: 10;
+}
+
+.header__right, .header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__link{
+    font-family: var(--noto);
+    color: var(--white);
+    margin-left: 15px;
+    text-decoration: none;
+    align-content: center;
+}
+
+.header__text{
+    padding-bottom: 5px;
+}
+
+.header__search, .header__notifications{
+    height: 20px;
+}
+
+.header__logo{
+    height: 50px;
+    margin-right: 20px;
+}
+
+main{
+    
+}
+/* Card master */
+
+
+.card__master{
+    width: 100%;
+    height: 98vh;
+    position: relative;
+    background-image: url("../img/imagens-extraidas/card__image--master.webp") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 70px;
+    box-shadow: 20px 20px 20px #5d80b138;
+}
+
+.main__master--text{
+    padding: 90px 0px 0px 50px;
+
+}
+
+
+
+.main__image--text{
+    width: 35vw;
+}
+
+.main__top{
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+/* Quadrado vermelho de TOP 10 e seu texto interno */
+
+.main__top--square{ 
+    background-color: var(--red);
+    width: 30px;
+    height: 30px;
+    line-height: 12px;
+    box-shadow: 1px 1px 1px 1px rgba(31, 31, 31, 0.514);
+    border-radius: 3px;
+}
+.main__top--text1{
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: var(--fira);
+    padding-top: 3px;
+    letter-spacing: 1px;
+}
+.main__top--text2{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: var(--fira);
+    text-align: center;
+    padding-right: 2px;
+}
+
+.main__top--text{
+    font-size: 25px;
+    padding-left: 30px;
+    color: var(--white);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.678);
+    font-family: var(--fira);
+}
+
+.main__master--description{
+    color: var(--white);
+    font-family: var(--fira);
+    width: 40vw;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.678);
+    font-size: 1.4vw;
+}
+
+.main__buttons{
+    display: flex;
+    width: 95vw;
+    justify-content: space-between;
+}
+
+.main__button{
+    padding: 10px 30px;
+    font-family: var(--fira);
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 4px;
+    margin: 20px 10px 0px 0px;
+    box-shadow: 3px 3px 3px #86868628;
+    display: inline-flex;
+}
+
+.main__button--info{
+    background-color: #86868693;
+    color: var(--white);
+}
+
+/* Indicador da Faixa Etária indicada */
+
+.rating__box{
+    width: 100px;
+    height: 40px;
+    background-color: #00000073;
+}
+
+.white__line{
+    display: block;
+    width: 3px;
+    background-color: #ffffff;
+    height: 100;
+}
+
+.rating__square{
+    width: 40px;
+    height: 40px;
+    margin: 0px 0px 0px 15px;
+    background-color: var(--orange);
+    border-radius: 4px;
+
+}
+
+.rating__text{
+    color: var(--white);
+    text-align: center;
+    padding: 5px 0px 0px 2px;
+    font-weight: bold;
+    font-family: var(--fira);
+    font-size: 22px;
+}
+
+/* Estilização dos carroséis */
+
+.card__adicionados--recentemente{
+
+}
+.title__carrossel{
+    color: var(--white);
+    font-family: var(--noto);
+    text-shadow: 2px 2px 2px var(--black);
+    font-weight: bold;
+    font-size: 1.4vw;
+    padding: 40px 0px 10px 0px;
+}
+
+.carrossel__imagens{
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    overflow: hidden;
+    margin-bottom: 400px;
+}
+.carrossel__imagem{
+    width: 250px;
+    margin-right: 10px;
 }
