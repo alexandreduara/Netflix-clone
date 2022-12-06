@@ -195,9 +195,6 @@ main{
 
 /* Estilização dos carroséis */
 
-.card__adicionados--recentemente{
-
-}
 .title__carrossel{
     color: var(--white);
     font-family: var(--noto);
@@ -212,7 +209,6 @@ main{
     flex-direction: row;
     height: 130px;
     overflow: hidden;
-    margin-bottom: 400px;
 }
 .carrossel__imagem{
     width: 250px;
