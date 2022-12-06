@@ -14,10 +14,10 @@ Este é um projeto no qual me desafiei a criar um clone da netflix usando os meu
 - ### Criar o card principal. :white_check_mark:
 - ### Começar a criação dos carrosséis: :white_check_mark:
 > - ### Recentemente adicionados. :white_check_mark:
-> - ### Populares na Netflix.
-> - ### Em alta.
-> - ### Continuar assistindo como.
+> - ### Populares na Netflix. :white_check_mark:
+> - ### Em alta. :white_check_mark:
+> - ### Continuar assistindo como. 
 > - ### Brasil: top 10 em filmes hoje.
-> - ### assistir novamente.
+> - ### assistir novamente. :white_check_mark:
 - ### Criar o footer.
 - ### colocar as funções do Javascript no cabeçalho
