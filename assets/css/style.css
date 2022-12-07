@@ -178,6 +178,12 @@ header{
     color: var(--white);
 }
 
+.icone__button{
+    width: 30px;
+    margin-right: 15px;
+    position: relative;
+    bottom: 3px;
+}
 /* Indicador da Faixa Etária indicada */
 
 .rating__box{
