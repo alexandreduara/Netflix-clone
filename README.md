@@ -17,7 +17,7 @@ Este é um projeto no qual me desafiei a criar um clone da netflix usando os meu
 > - ### Populares na Netflix. :white_check_mark:
 > - ### Em alta. :white_check_mark:
 > - ### Continuar assistindo como. 
-> - ### Brasil: top 10 em filmes hoje.
+> - ### Brasil: top 10 em filmes hoje. :white_check_mark:
 > - ### assistir novamente. :white_check_mark:
 - ### Criar o footer.
 - ### colocar as funções do Javascript no cabeçalho
