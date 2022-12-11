@@ -25,10 +25,3 @@ var slider = tns({
     prevButton: ".previous4",
     nextButton: ".next4",
 });
-
-var slider = tns({
-    container: '.slide5',
-    items: 5,
-    prevButton: ".previous5",
-    nextButton: ".next5",
-});
