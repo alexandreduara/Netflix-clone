@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <title>Ínicio ─ Netflix</title>
 </head>
-<body>
+<body class="background__principal">
     <header>
         <div class="header__right">
             <a href="#" class="header__logo--link">
@@ -25,9 +27,10 @@
             <a href="#" class="header__link"><img class="header__notifications" src="./assets/img/notification.png" alt="notifications"></a>
             <a href="#" class="header__link"><img class="profile__picture" src="./assets/img/profile-picture.png" alt="profile picture"></a>
         </div>
+
     </header>
     <main>
-        <div class="card__master">
+        <section class="principal">
             <div class="main__master--text">
                 <img src="./assets/img/imagens-extraidas/card__text1.webp" class="main__image--text">
 
@@ -35,21 +38,26 @@
                     <div class="main__top--square"><p class="main__top--text1">Top</p><p class="main__top--text2">10</p></div>
                     <p class="main__top--text">Top 4 em filmes hoje</p>
                 </div>
+
                 <p class="main__master--description">No mundo pós-apocalíptico, um meteorito infectado com uma planta mortal
                     atinge o planeta e um esquadrão suicida tem algumas horas para salvar a sua cidade do colapso total.</p>
                 
                 <div class="main__buttons">
-                    <div>
+                    <div class="buttons">
                         <button class="main__button main__button--play"><img class="icone__button" src="./assets/img/play.png" alt="play"> Assistir</button>
                         <button class="main__button main__button--info"><img class="icone__button" src="./assets/img/infos.png" alt="info"> Mais informações</button>
                     </div>
                     
                     <div class="rating__box"><div class="white__line"><div class="rating__square"><p class="rating__text">A14</p></div></div></div>
-                    
                 </div>
-                
-                    <p class="title__carrossel">Adicionados recentemente</p>
-                    <div class="carrossel__imagens">
+            </div>
+        </section>
+            
+        <section class="carrossel">
+                <p class="title__carrossel">Adicionados recentemente</p>
+                <div class="carrossel__imagens">
+                    <button class="previous1"><img src="./assets/img/voltar.png" alt="" class="carrossel__seta"></button>
+                    <div class="slide1">
                         <img src="./assets/img/imagens-extraidas/filme1.jpg" alt="" class="carrossel__imagem">
                         <img src="./assets/img/imagens-extraidas/filme2.jpg" alt="" class="carrossel__imagem">
                         <img src="./assets/img/imagens-extraidas/filme3.jpg" alt="" class="carrossel__imagem">
@@ -61,73 +69,136 @@
                         <img src="./assets/img/imagens-extraidas/filme9.webp" alt="" class="carrossel__imagem">
                     </div>
 
-                    <p class="title__carrossel">Em alta</p>
-                    <div class="carrossel__imagens">
-                        <img src="./assets/img/imagens-extraidas/filme10.jpg" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme11.webp" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme12.webp" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme13.jpg" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme14.webp" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme15.webp" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme16.webp" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme17.jpg" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme18.jpg" alt="" class="carrossel__imagem">
-                    </div>
+                    <button class="next1"><img src="./assets/img/proximo.png" alt="" class="carrossel__seta"></button>
+                </div>
 
-                    <p class="title__carrossel">Populares da Netflix</p>
-                    <div class="carrossel__imagens">
-                        <img src="./assets/img/imagens-extraidas/filme19.jpg" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme20.jpg" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme21.jpg" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme21.jpg" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme23.jpg" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme24.jpg" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme25.jpg" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme26.webp" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme27.webp" alt="" class="carrossel__imagem">
-                    </div>
+        </section>
 
-                    <p class="title__carrossel">Brasil: top 10 em séries hoje</p>
-                    <div class="carrossel__imagens--top">
-                        <p class="top__number">1</p>
-                        <img src="./assets/img/imagens-extraidas/top1.jpg" alt="" class="carrossel__imagem--top">
-                        <p class="top__number">2</p>
-                        <img src="./assets/img/imagens-extraidas/top2.webp" alt="" class="carrossel__imagem--top">
-                        <p class="top__number">3</p>
-                        <img src="./assets/img/imagens-extraidas/top3.jpg" alt="" class="carrossel__imagem--top">
-                        <p class="top__number">4</p>
-                        <img src="./assets/img/imagens-extraidas/top4.jpg" alt="" class="carrossel__imagem--top">
-                        <p class="top__number">5</p>
-                        <img src="./assets/img/imagens-extraidas/top5.webp" alt="" class="carrossel__imagem--top">
-                        <p class="top__number">6</p>
-                        <img src="./assets/img/imagens-extraidas/top6.webp" alt="" class="carrossel__imagem--top">
-                        <p class="top__number">7</p>
-                        <img src="./assets/img/imagens-extraidas/top7.jpg" alt="" class="carrossel__imagem--top">
-                        <p class="top__number">8</p>
-                        <img src="./assets/img/imagens-extraidas/top8.jpg" alt="" class="carrossel__imagem--top">
-                        <p class="top__number">9</p>
-                        <img src="./assets/img/imagens-extraidas/top9.webp" alt="" class="carrossel__imagem--top">
-                        <p class="top__number">10</p>
-                        <img src="./assets/img/imagens-extraidas/top4.jpg" alt="" class="carrossel__imagem--top">
-                    </div>
-
-                    <p class="title__carrossel">Assistir novamente</p>
-                    <div class="carrossel__imagens">
-                        <img src="./assets/img/imagens-extraidas/filme28.webp" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme29.webp" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme30.jpg" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme31.webp" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme32.webp" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme33.webp" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme34.jpg" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme35.jpg" alt="" class="carrossel__imagem">
-                        <img src="./assets/img/imagens-extraidas/filme36.webp" alt="" class="carrossel__imagem">
-                    </div>            
+        <section class="carrossel">
+            <p class="title__carrossel">Em alta</p>
+            <div class="carrossel__imagens">
+                <button class="previous2"><img src="./assets/img/voltar.png" alt="" class="carrossel__seta"></button>
+                <div class="slide2">
+                    <img src="./assets/img/imagens-extraidas/filme10.jpg" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme11.webp" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme12.webp" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme13.jpg" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme14.webp" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme15.webp" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme16.webp" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme17.jpg" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme18.jpg" alt="" class="carrossel__imagem">
+                </div>
+                
+                <button class="next2"><img src="./assets/img/proximo.png" alt="" class="carrossel__seta"></button>
             </div>
-        </article>
-        <br>
+        </section>
+
+        <section class="carrossel">
+            <p class="title__carrossel">Populares da Netflix</p>
+            <div class="carrossel__imagens">
+                <button class="previous3"><img src="./assets/img/voltar.png" alt="" class="carrossel__seta"></button>
+                <div class="slide3">
+                    <img src="./assets/img/imagens-extraidas/filme19.jpg" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme20.jpg" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme21.jpg" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme21.jpg" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme23.jpg" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme24.jpg" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme25.jpg" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme26.webp" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme27.webp" alt="" class="carrossel__imagem">
+                </div>
+                <button class="next3"><img src="./assets/img/proximo.png" alt="" class="carrossel__seta"></button>
+            </div>
+        </section>
+
+        <section class="carrossel">
+            <p class="title__carrossel">Brasil: top 10 em séries hoje</p>
+            <div class="carrossel__imagens--top">
+                <p class="top__number">1</p>
+                <img src="./assets/img/imagens-extraidas/top1.jpg" alt="" class="carrossel__imagem--top">
+                <p class="top__number">2</p>
+                <img src="./assets/img/imagens-extraidas/top2.webp" alt="" class="carrossel__imagem--top">
+                <p class="top__number">3</p>
+                <img src="./assets/img/imagens-extraidas/top3.jpg" alt="" class="carrossel__imagem--top">
+                <p class="top__number">4</p>
+                <img src="./assets/img/imagens-extraidas/top4.jpg" alt="" class="carrossel__imagem--top">
+                <p class="top__number">5</p>
+                <img src="./assets/img/imagens-extraidas/top5.webp" alt="" class="carrossel__imagem--top">
+                <p class="top__number">6</p>
+                <img src="./assets/img/imagens-extraidas/top6.webp" alt="" class="carrossel__imagem--top">
+                <p class="top__number">7</p>
+                <img src="./assets/img/imagens-extraidas/top7.jpg" alt="" class="carrossel__imagem--top">
+                <p class="top__number">8</p>
+                <img src="./assets/img/imagens-extraidas/top8.jpg" alt="" class="carrossel__imagem--top">
+                <p class="top__number">9</p>
+                <img src="./assets/img/imagens-extraidas/top9.webp" alt="" class="carrossel__imagem--top">
+                <p class="top__number">10</p>
+                <img src="./assets/img/imagens-extraidas/top4.jpg" alt="" class="carrossel__imagem--top">
+            </div>
+        </section>
+
+        <section class="carrossel">
+            <p class="title__carrossel">Assistir novamente</p>
+            <div class="carrossel__imagens">
+                <button class="previous4"><img src="./assets/img/voltar.png" alt="" class="carrossel__seta"></button>
+                <div class="slide4">
+                    <img src="./assets/img/imagens-extraidas/filme28.webp" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme29.webp" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme30.jpg" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme31.webp" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme32.webp" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme33.webp" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme34.jpg" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme35.jpg" alt="" class="carrossel__imagem">
+                    <img src="./assets/img/imagens-extraidas/filme36.webp" alt="" class="carrossel__imagem">
+                </div>
+                <button class="next4"><img src="./assets/img/proximo.png" alt="" class="carrossel__seta"></button>
+            </div>
+        </section>
     </main>
 
+    <footer class="footer">
+
+        <ul class="media">
+            <li>
+                <a href="#" class="media__link"><img src="./assets/img/facebook.svg" alt="" class="media__image"></a>
+            </li>
+            <li>
+                <a href="#" class="media__link"><img src="./assets/img/instagram.svg" alt="" class="media__image"></a>
+            </li>
+            <li>
+                <a href="#" class="media__link"><img src="./assets/img/twitter.svg" alt="" class="media__image"></a>
+            </li>
+            <li>
+                <a href="#" class="media__link"><img src="./assets/img/youtube.svg" alt="" class="media__image"></a>
+            </li>
+        </ul>
+
+        <ul class="links">
+            <li class="footer__link"><a class="footer__link" href="#">Audiodescrição</a></li>
+            <li class="footer__link"><a class="footer__link" href="#">Central de Ajuda</a></li>
+            <li class="footer__link"><a class="footer__link" href="#">Cartão pré-pago</a></li>
+            <li class="footer__link"><a class="footer__link" href="#">Imprensa</a></li>
+        </ul>
+        <ul class="links">
+            <li class="footer__link"><a class="footer__link" href="#">Relações com investidores</a></li>
+            <li class="footer__link"><a class="footer__link" href="#">Carreiras</a></li>
+            <li class="footer__link"><a class="footer__link" href="#">Termos de Uso</a></li>
+            <li class="footer__link"><a class="footer__link" href="#">Privacidade</a></li>
+        </ul>
+        <ul class="links">
+            <li class="footer__link"><a class="footer__link" href="#">Avisos legais</a></li>
+            <li class="footer__link"><a class="footer__link" href="#">Preferências de cookies</a></li>
+            <li class="footer__link"><a class="footer__link" href="#">informações corporativas</a></li>
+            <li class="footer__link"><a class="footer__link" href="#">Entre em contato</a></li>
+        </ul>
+
+        <button class="footer__button">Código do serviço</button>
+        <p class="footer__text">© 1997-2022 Netflix, Inc. </p>
+        
+    </footer>
     <script src="./assets/js/index.js"></script>
 </body>
 </html>
