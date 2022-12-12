@@ -68,8 +68,6 @@
 > - ### Recentemente adicionados. :white_check_mark:
 > - ### Populares na Netflix. :white_check_mark:
 > - ### Em alta. :white_check_mark:
-> - ### Continuar assistindo como. 
 > - ### Brasil: top 10 em filmes hoje. :white_check_mark:
 > - ### assistir novamente. :white_check_mark:
-- ### Criar o footer.
-- ### colocar as funções do Javascript no cabeçalho
+- ### Criar o footer. :white_check_mark:
