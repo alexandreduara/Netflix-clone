@@ -13,8 +13,7 @@
 <br>
 
 ## Um GIF Rápido mostrando o projeto já finalizado :space_invader:
-![Um Gif rápido mostrando o projeto](./assets/img/design/InShot_20221126_144237141.gif)
-> :construction: Projeto em construção :construction:
+![Um Gif rápido mostrando o projeto](./assets/img/InShot_20221211_214820289.gif)
 
 ## [Link do Deploy](https://alexandreduara.github.io/netflix-clone/)
 
