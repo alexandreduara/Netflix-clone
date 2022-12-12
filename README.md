@@ -16,6 +16,8 @@
 ![Um Gif rápido mostrando o projeto](./assets/img/design/InShot_20221126_144237141.gif)
 > :construction: Projeto em construção :construction:
 
+## [Link do Deploy](https://alexandreduara.github.io/netflix-clone/)
+
 
 ## Neste projeto eu :books:
 - ### Solidifiquei os meus conhecimentos em HTML e CSS.
@@ -71,3 +73,4 @@
 > - ### Brasil: top 10 em filmes hoje. :white_check_mark:
 > - ### assistir novamente. :white_check_mark:
 - ### Criar o footer. :white_check_mark:
+
