@@ -28,14 +28,9 @@
 - ### Buscar os ícones, imagens e fontes para o projeto.
 - ### Deixar o site interativo utilizando JavaScript, meus conhecimentos eram mínimos no início deste projeto.
 - ### Deixar o site o máximo parecido com o original.
+- ### Carrossel de imagens.
 
-## :hammer: Funcionalidades do projeto:
-- ### 'Funcionalidade 1': Escolher o usuário;
-- ### 'Funcionalidade 2':
-- ### 'Funcionalidade 3':
-- ### 'Funcionalidade 4':
-- ### 'Funcionalidade 5':
-- ### 'Funcionalidade 6':
+
 
 ## Linguagens utilizadas no projeto ✔️
 <br>
