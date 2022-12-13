@@ -15,9 +15,6 @@
 ## Um GIF Rápido mostrando o projeto já finalizado :space_invader:
 ![Um Gif rápido mostrando o projeto](./assets/img/InShot_20221211_214820289.gif)
 
-## [Link do Deploy](https://alexandreduara.github.io/netflix-clone/)
-
-
 ### Neste projeto eu :books:
 - ### Solidifiquei os meus conhecimentos em HTML e CSS.
 - ### Implementei a metodologia BEM (Block Element Modifier) para criar um códgio legível e com fácil manutenibilidade.
