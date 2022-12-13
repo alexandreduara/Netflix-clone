@@ -1,9 +1,9 @@
 # Olá! :raising_hand: Neste projeto eu criei um clone da tão conhecida Netflix, mas calma é somente para estudos, não publicarei nenhum conteúdo rsrs
 
-## Fique a vontade para sugerir alterações, este é o momento de colocar os meus atuais conhecimentos em prática :)
+### Fique a vontade para sugerir alterações, este é o momento de colocar os meus atuais conhecimentos em prática :)
 <br>
 
-## [Deploy do Website - dê uma olhada em como ficou o site :wink: ](https://alexandreduara.github.io/netflix-clone/)
+### [Deploy do Website - dê uma olhada em como ficou o site :wink: ](https://alexandreduara.github.io/netflix-clone/)
 <br>
 
 ### Estas são os prints que usei como base para a construção do projeto:
@@ -18,13 +18,13 @@
 ## [Link do Deploy](https://alexandreduara.github.io/netflix-clone/)
 
 
-## Neste projeto eu :books:
+### Neste projeto eu :books:
 - ### Solidifiquei os meus conhecimentos em HTML e CSS.
 - ### Implementei a metodologia BEM (Block Element Modifier) para criar um códgio legível e com fácil manutenibilidade.
 - ### Coloquei em prática os meus conhecimentos adquiridos em Javascript
 - ### Coloquei as cores em variáveis, visando também praticar a manutenibilidade do código.
 
-## Quais as maiores dificuldades superadas :grey_question:
+### Quais as maiores dificuldades superadas :grey_question:
 
 - ### Buscar os ícones, imagens e fontes para o projeto.
 - ### Deixar o site interativo utilizando JavaScript, meus conhecimentos eram mínimos no início deste projeto.
@@ -33,7 +33,7 @@
 
 
 
-## Linguagens utilizadas no projeto ✔️
+### Linguagens utilizadas no projeto ✔️
 <br>
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -42,7 +42,7 @@
 
 <br>
 
-## Autor:
+### Autor:
 
 | [<img src="https://avatars.githubusercontent.com/u/101659562?s=400&u=d4a3236540693ba18e4ce41f51fdb966c45ac3eb&v=4" width=115><br><sub>Alexandre Duarte de Araújo</sub>](https://github.com/alexandreduara) |
 | :---: |
