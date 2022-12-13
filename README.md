@@ -6,7 +6,7 @@
 ## [Deploy do Website - dê uma olhada em como ficou o site :wink: ](https://alexandreduara.github.io/netflix-clone/)
 <br>
 
-## Estas são os prints que usei como base para a construção do projeto:
+### Estas são os prints que usei como base para a construção do projeto:
 ![Este é um preview de como o projeto deverá ficar](./assets/img/design-esperado/print%201.png)
 ![Este é um preview de como o projeto deverá ficar](./assets/img/design-esperado/print%204.png)
 
